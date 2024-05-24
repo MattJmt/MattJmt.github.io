@@ -163,7 +163,7 @@ input, select, textarea {
 	}
 
 	h5 {
-		font-size: 0.9em;
+		font-size: 1.15em;
 		line-height: 1.5em;
 	}
 
@@ -2505,152 +2505,6 @@ input, select, textarea {
 				border-top: 0;
 			}
 
-/* Button
-
-	input[type="submit"],
-	input[type="reset"],
-	input[type="button"],
-	.button {
-		-moz-appearance: none;
-		-webkit-appearance: none;
-		-ms-appearance: none;
-		appearance: none;
-		-moz-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-webkit-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		-ms-transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
-		background-color: #989898;
-		border-radius: 5px;
-		border: 0;
-		color: #ffffff !important;
-		cursor: pointer;
-		display: inline-block;
-		font-weight: 700;
-		height: 2.75em;
-		line-height: 2.75em;
-		padding: 0 1.5em;
-		text-align: center;
-		text-decoration: none;
-		white-space: nowrap;
-	}
-
-		input[type="submit"]:hover,
-		input[type="reset"]:hover,
-		input[type="button"]:hover,
-		.button:hover {
-			background-color: #a5a5a5;
-			color: #ffffff !important;
-		}
-
-		input[type="submit"]:active,
-		input[type="reset"]:active,
-		input[type="button"]:active,
-		.button:active {
-			background-color: #8b8b8b;
-		}
-
-		input[type="submit"].icon,
-		input[type="reset"].icon,
-		input[type="button"].icon,
-		.button.icon {
-			padding-left: 1.35em;
-		}
-
-			input[type="submit"].icon:before,
-			input[type="reset"].icon:before,
-			input[type="button"].icon:before,
-			.button.icon:before {
-				margin-right: 0.5em;
-			}
-
-		input[type="submit"].fit,
-		input[type="reset"].fit,
-		input[type="button"].fit,
-		.button.fit {
-			width: 100%;
-		}
-
-		input[type="submit"].small,
-		input[type="reset"].small,
-		input[type="button"].small,
-		.button.small {
-			font-size: 0.8em;
-		}
-
-		input[type="submit"].large,
-		input[type="reset"].large,
-		input[type="button"].large,
-		.button.large {
-			font-size: 1.35em;
-		}
-
-		input[type="submit"].alt,
-		input[type="reset"].alt,
-		input[type="button"].alt,
-		.button.alt {
-			background-color: transparent;
-			box-shadow: inset 0 0 0 2px #e4e4e4;
-			color: #777 !important;
-		}
-
-			input[type="submit"].alt:hover,
-			input[type="reset"].alt:hover,
-			input[type="button"].alt:hover,
-			.button.alt:hover {
-				background-color: #f4f4f4;
-				color: #777 !important;
-			}
-
-			input[type="submit"].alt:active,
-			input[type="reset"].alt:active,
-			input[type="button"].alt:active,
-			.button.alt:active {
-				background-color: #eaeaea;
-			}
-
-			input[type="submit"].alt.icon:before,
-			input[type="reset"].alt.icon:before,
-			input[type="button"].alt.icon:before,
-			.button.alt.icon:before {
-				color: #aaa;
-			}
-
-		input[type="submit"].primary,
-		input[type="reset"].primary,
-		input[type="button"].primary,
-		.button.primary {
-			background-color: #ca4aae;
-			color: #ffffff !important;
-		}
-
-			input[type="submit"].primary:hover,
-			input[type="reset"].primary:hover,
-			input[type="button"].primary:hover,
-			.button.primary:hover {
-				background-color: #5ed0b1;
-			}
-
-			input[type="submit"].primary:active,
-			input[type="reset"].primary:active,
-			input[type="button"].primary:active,
-			.button.primary:active {
-				background-color: #39c29d;
-			}
-
-		input[type="submit"].disabled, input[type="submit"]:disabled,
-		input[type="reset"].disabled,
-		input[type="reset"]:disabled,
-		input[type="button"].disabled,
-		input[type="button"]:disabled,
-		.button.disabled,
-		.button:disabled {
-			background-color: #888 !important;
-			box-shadow: inset 0 -0.15em 0 0 rgba(0, 0, 0, 0.15);
-			color: #fff !important;
-			cursor: default;
-			opacity: 0.25;
-		} */
-
 /* Features */
 
 	.features article {
@@ -2675,6 +2529,7 @@ input, select, textarea {
 			text-align: center;
 			font-style: italic;
 			color: #777;
+			margin-top: 5px;
 		}
 			.features article .image img {
 				display: block;
@@ -3380,224 +3235,75 @@ input, select, textarea {
 	align-items: center;
 }
 
-/* Timeline Section */
-.timeline header h1 {
-    text-align: center;
-    font-weight: bold;
-    margin-top: 0;
+.experience {
+    border-left: 3px solid #4a6cca; 
+    padding: 0 30px;
+    margin-left: 200px;
+	margin-top: 50px;
 }
 
-.timeline header p {
-    text-align: center;
-    margin-bottom: 0;
-}
 
-.timeline {
-    position: relative;
-    padding: 0;
-    width: 100%;
-    margin-top: 20px;
-    list-style-type: none;
-}
 
-.timeline:before {
-    position: absolute;
-    left: 20%;
-    top: 0;
-    content: '';
-    display: block;
-    width: 2px;
-    height: 100%;
-    background: #4a6cca;
-    z-index: 5;
-}
-
-.timeline li {
-    padding: 0em 0; /* Reduced vertical spacing */
-    position: relative;
-}
-
-.timeline .hexa {
-    width: 10px;
-    height: 10px;
-	content: '';
-    display: block;
-    background: #4a6cca;
-    position: absolute;
-    border-radius: 50%;
-    z-index: 5;
-    margin-left: 104.5px;
-    top: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.direction-l,
-.direction-r {
-    width: 100%;
-    text-align: left;
+.item-content {
     display: flex;
-    align-items: center; /* Align items center vertically */
+    align-items: center;  /* Aligns the items vertically centered */
 }
 
-.flag-wrapper {
-    text-align: left;
+.item {
     position: relative;
-    padding-left: 15%; /* Adjusted for proper alignment */
-    flex-shrink: 0;
+    margin-bottom: 30px;  /* Space between items */
+    padding-left: 50px;  /* Ensures content does not overlap the image */
 }
 
-.time-wrapper {
-    display: block;
+.item-dot {
+    width: 50px;  /* Same size as the previous dots */
+    height: 50px;
+    border-radius: 50%;  /* Makes the image circular */
     position: absolute;
-    margin-left: -50px;
-    top: 50%;
+    left: 0;  /* Align with the start of the item */
+    top: 50%;  /* Center vertically */
     transform: translateY(-50%);
-    z-index: 14;
-    line-height: 1em;
-    color: #4a6cca;
-    flex-shrink: 0;
+    border: 3px solid #4a6cca;  /* Optional, if you want a border */
+	margin-left: -57px;
 }
 
-.time {
-    white-space: nowrap; /* Ensure title stays on one line */
-    overflow: hidden;
-    text-overflow: ellipsis;
+.content {
+    padding-left: 20px;  /* Space to ensure text does not overlap the image */
+}
+
+.company-name {
+    color: #000; /* Example color */
+	margin-bottom: 5px; /* Reduce spacing between company name and description */
+}
+
+.description {
 	color: #777;
+	position: relative;
+    top: -10px;
 }
 
-.desc {
-    position: relative;
-    margin: 0; /* Reduced vertical spacing */
-    padding: 0; /* Remove padding */
-    background: none; /* Remove background */
-    box-shadow: none; /* Remove box shadow */
-    z-index: 15;
-    left: 25%; /* Adjusted for proper alignment */
-    width: 70%;
-    display: flex;
-    align-items: center; /* Align items center vertically */
+.job-info {
+    position: absolute;
+    left: -260px;
+    top: 20px;
 }
 
-.timeline-logo {
-    width: 50px; /* Increased size */
-    height: 50px; /* Increased size */
-    border-radius: 50%; /* Make the logo circular */
-    overflow: hidden;
-    object-fit: cover;
-    margin-right: 20px; /* Increased margin for better spacing */
-	margin-left: 20px;
-	border: 1px solid rgb(0, 0, 0); /* Add a black border */
+.title {
+    color: #777; /* Example color */
+	
 }
 
-.timeline-title {
-    font-size: 1.2em;
-    margin: 0;
-    color: #4a6cca;
-    display: block; /* Ensure title is displayed as block */
-    white-space: nowrap; /* Ensure title stays on one line */
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.timeline-company {
-    font-size: 1em;
-    color: #777;
-    margin: 0;
-    display: block; /* Ensure company name is displayed as block */
-    white-space: nowrap; /* Ensure company name stays on one line */
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
-
-.timeline-details {
-    display: flex;
-    align-items: center; /* Align items center vertically */
-    gap: 10px; /* Space between items */
-}
-
-@media(min-width: 768px) {
-    .timeline {
-        width: 660px;
-        margin: 0 auto;
-        margin-top: 20px;
+@media (max-width: 767px) {
+    .experience {
+        margin-left: 0;
+        padding-right: 0;
+		top: 0;
     }
-
-    .timeline li:after {
-        content: "";
-        display: block;
-        height: 0;
-        clear: both;
-        visibility: hidden;
+    .job-info {
+        position: static;
+        margin-bottom: 1rem;
     }
-
-    .direction-l,
-    .direction-r {
-        text-align: left;
-    }
-
-    .direction-l .desc,
-    .direction-r .desc {
-        margin: 0.5em 1em 0 1em; /* Reduced vertical spacing */
-        padding: 1em;
-    }
-
-    .direction-l {
-        position: relative;
-        width: 310px;
-        float: left;
-    }
-
-    .direction-r {
-        position: relative;
-        width: 310px;
-        float: right;
-    }
-
-    .flag-wrapper {
-        display: inline-block;
-    }
-
-    .flag {
-        font-size: 18px;
-    }
-
-    .direction-l .time-wrapper {
-        float: left;
-        text-align: right;
-        padding-right: 5px; /* Adjusted for proper alignment */
-    }
-
-    .direction-r .time-wrapper {
-        float: right;
-        text-align: left;
-        padding-left: 5px; /* Adjusted for proper alignment */
-    }
-
-    .time {
-        padding: 5px 10px;
-    }
-
-    .direction-r .desc {
-        margin: 0.5em 0 0 0.75em; /* Reduced vertical spacing */
-    }
-}
-
-@media(min-width: 992px) {
-    .timeline {
-        width: 800px;
-        margin: 0 auto;
-        margin-top: 20px;
-    }
-
-    .direction-l {
-        position: relative;
-        width: 380px;
-        float: left;
-    }
-
-    .direction-r {
-        position: relative;
-        width: 380px;
-        float: right;
-    }
+	.company-name, .description {
+        left: 0; /* Reset position for mobile */
+	}
 }

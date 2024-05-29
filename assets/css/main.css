@@ -2703,7 +2703,7 @@ input, select, textarea {
 	#footer {
 		background: #fafafa;
 		border-top: 0;
-		color: #4a6cca;
+		color: #777;
 		overflow: hidden;
 		padding: 0em 0em 0em 0;
 
@@ -3307,3 +3307,26 @@ input, select, textarea {
         left: 0; /* Reset position for mobile */
 	}
 }
+
+.projects {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto 1fr;  /* First column for dates, second for titles */
+    column-gap: 20px;  /* Space between the columns */
+}
+
+.project {
+    display: contents;  /* Makes the child elements participate in the grid layout */
+}
+
+.date, .project_title {
+    text-align: left;
+    display: block;
+}
+
+.project_title a {
+    display: inline-block;  /* Ensures the link behaves as a block for alignment */
+}
+

@@ -114,7 +114,7 @@ input, select, textarea {
 		border-bottom: solid 1px #e4e4e4;
 		color: inherit;
 		text-decoration: none;
-		color: #4a72ca !important;
+		/* color: #4a72ca !important; */
 	}
 
 		a:hover {
@@ -1807,6 +1807,7 @@ input, select, textarea {
 
 	label {
 		color: #777;
+		/* color: #ffffff; */
 		display: block;
 		font-size: 0.9em;
 		font-weight: 700;
@@ -2227,6 +2228,7 @@ input, select, textarea {
 		list-style: disc;
 		margin: 0 0 2.25em 0;
 		padding-left: 1em;
+		
 	}
 
 		ul li {
@@ -2379,6 +2381,7 @@ input, select, textarea {
 	ul.feature-icons {
 		list-style: none;
 		padding-left: 0;
+		color: #ffffff;
 	}
 
 		ul.feature-icons li {
@@ -2421,12 +2424,14 @@ input, select, textarea {
 /* Icons */
 
 	ul.icons {
+		
 		cursor: default;
 		list-style: none;
 		padding-left: 0;
 	}
 
 		ul.icons li {
+			
 			display: inline-block;
 			padding: 0 1em 0 0;
 		}

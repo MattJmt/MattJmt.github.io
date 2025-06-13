@@ -1,625 +1,214 @@
-<!DOCTYPE HTML>
-<!-- 
-	Template from: Read Only by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Matthias Jammot - PhD Student in AI and Robotics for Health at Harvard University </title>
+    <meta name="description" content="Matthias Jammot is a PhD student at Harvard University researching AI and Robotics for Health. His research focuses on sensing, control and machine learning for exoskeletons." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="robots" content="index, follow" />
+    <meta name="author" content="Matthias Jammot" />
+    <meta name="keywords" content="Matthias, Jammot, Matthias Jammot, Matthias Jammot exoskeletons, exoskeletons, exosuit, robotics, spatial perception, AI, Harvard, Harvard University, sensing, control, machine learning, computer vision" />
+    <link rel="canonical" href="https://matthiasjammot.com/" />
+    <meta name="google-site-verification" content="" />
 
-<html>
-	<head>
-		<title>Matthias Jammot</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="icon" href="images/favicon.ico" type="image/x-icon">
-		<link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <!-- Meta Tags -->
+    <meta name="og:locale" content="en-US" />
+    <meta property="og:site_name" content="Matthias Jammot" />
+    <meta property="og:url" content="https://matthiasjammot.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Matthias Jammot" />
+    <meta
+      property="og:description"
+      content="Personal webpage. Pushing the frontiers of AI and robotics for health."
+    />
+    <meta
+      property="og:image"
+      content="https://matthiasjammot.com/assets/avatar.png"
+    />
 
+    <!-- Schema.org markup for Google -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": ["Person", "Scholar"],
+      "name": "Matthias Jammot",
+      "url": "https://matthiasjammot.com",
+      "image": "https://matthiasjammot.com/assets/avatar.png",
+      "sameAs": [
+        "https://linkedin.com/in/matthiasjammot",
+        "https://github.com/mattjmt",
+        "https://scholar.google.com/citations?user=Matthias-Jammot"
+      ],
+      "jobTitle": "PhD Student",
+      "worksFor": {
+        "@type": "Organization",
+        "name": "Harvard University",
+        "url": "https://seas.harvard.edu/"
+      },
+      "alumniOf": {
+        "@type": "Organization",
+        "name": "Imperial College London, ETH Zurich"
+      },
+      "knowsAbout": [
+        "Robotics",
+        "Sensing",
+        "Exoskeletons",
+        "Machine Learning",
+        "Computer Vision",
+        "Artificial Intelligence"
+      ],
+      "hasCredential": {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "PhD Student",
+        "educationalLevel": "Doctoral"
+      }
+    }
+    </script>
 
-        <!-- Define the Raleway font using @font-face -->
-        <style>
-            @font-face {
-                font-family: 'Montserrat';
-                src: url('assets/webfonts/static/Montserrat-Regular.ttf') format('truetype');
-                font-weight: normal;
-                font-style: normal;
-            }
-            @font-face {
-                font-family: 'Montserrat';
-                src: url('assets/webfonts/static/Montserrat-SemiBold.ttf') format('truetype');
-                font-weight: bold;
-                font-style: normal;
-            }
+    <!-- Preload critical assets -->
+    <link rel="preload" href="assets/avatar.png" as="image" />
+    <link rel="preload" href="styles.css" as="style" />
 
-            body {
-                font-family: 'Montserrat', sans-serif;
-            }
-        </style>
-    </head>
-	<body class="">
+    <!-- Stylesheets -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <main id="content" role="main">
+      <div class="container">
+        <div class="social-icons">
+            <a
+            href="mailto:mjammot@g.harvard.edu"
+            target="_blank"
+            aria-label="Email"
+            ><i class="fas fa-envelope"></i
+          ></a>
+          <a
+            href="https://linkedin.com/in/matthiasjammot"
+            target="_blank"
+            aria-label="LinkedIn"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+          <a
+            href="https://scholar.google.com/citations?user=Matthias-Jammot"
+            target="_blank"
+            aria-label="Google Scholar"
+            ><i class="fas fa-graduation-cap"></i
+          ></a>
+          <a
+            href="https://github.com/mattjmt"
+            target="_blank"
+            aria-label="GitHub"
+            ><i class="fab fa-github"></i
+          ></a>
+          <a
+            href="https://orcid.org/0009-0005-4332-2899"
+            target="_blank"
+            aria-label="ResearchGate"
+            ><i class="fab fa-orcid"></i
+          ></a>
+        </div>
+        <header>
+          <div class="header-content">
+            <h1>Matthias Jammot</h1>
+            <p class="subtitle">PhD Student at Harvard University | AI & Robotics for Health</p>
+          </div>
+          <img
+            src="assets/avatar.png"
+            alt="Matthias Jammot"
+            class="profile-image"
+          />
+        </header>
 
-       <!-- Header -->
-        <section id="header">
-            <header>
-				<br>
-                <span class="image avatar"><img src="images/avatar.png" alt="" /></span>
-                <h6 id="logo">Matthias Jammot</h6>
-                <p>AI & Robotics for Health</p>
-            </header>
-            <nav id="nav">
-                <ul>
-                    <li><a href="#about" class="scrolly">About</a></li>
-                    <!-- <li><a href="#timeline" class="scrolly">Experience</a></li> -->
-                    <li><a href="#projects" class="scrolly">Projects</a></li>
-                    <li><a href="#hobbies" class="scrolly">Hobbies</a></li>
-                </ul>
-            </nav>
-            <footer>
-                <ul class="icons">
-                    <li><a href="mailto:matthias.jammot@inf.ethz.ch" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-                    <li><a href="https://www.linkedin.com/in/matthiasjammot/" class="icon brands fa-linkedin"><span class="label">Instagram</span></a></li>
-                    <li><a href="https://github.com/MattJmt" class="icon brands fa-github"><span class="label">Github</span></a></li>
-                    <li><a href="https://www.youtube.com/@MatthiasJammot" class="icon brands fa-youtube"><span class="label">Facebook</span></a></li>
-                </ul>
-            </footer>
+        <div class="section">
+          <p>
+            I am a doctoral student at the <a href="https://seas.harvard.edu/">Harvard John A. Paulson School of Engineering and Applied Sciences (SEAS)</a> working on AI & Robotics for Health under
+					  the supervision of <a href='https://wyss.harvard.edu/team/associate-faculty/conor-walsh/'>Prof. Conor Walsh</a>.
+            My areas of interest encompass enhancing human lives through wearable sensors, robotics, and artificial intelligence.
+            Specifically, my research focuses on advancing exoskeletons from controlled lab settings to real-world
+						environments through sensing, control and machine learning techniques.
+          </p>
+          <p>
+            I am the recipient of the <a href='https://fulbright-france.org/fr/dotation-arthur-sachs'>Arthur Sachs Fulbright Scholarship</a> and the <a href='https://worldwide.harvard.edu/jean-gaillard-memorial-fellowship-fund-france'> Jean Gaillard Memorial Fellowship</a>, which alongside Harvard's funding, support me in my PhD.
+          </p>
+          <p>
+            Prior to starting my PhD, I worked on multimodal sensing (egocentric vision + physiological sensors) for health monitoring
+						and human-computer interaction with <a href='https://www.christianholz.net/'>Prof. Christian Holz</a> of the 
+						<a href='https://siplab.org/'>Sensing, Interaction & Perception Lab</a> at ETH Zürich.
+          </p>
+          <p>
+            I completed a Master's degree (MEng) at Imperial College London in Mechanical Engineering with a Year Abroad. In this 4-year course (BEng+MEng=3+1),
+						I pursued my final year at ETH Zürich in the Robotics, Systems and Control MSc. 
+						My Master's thesis on the design and control of a novel lower-limb soft exoskeleton at the <a href='https://sms.hest.ethz.ch/'>Sensory-Motor Systems Lab</a> 
+						was supervised by <a href='https://sms.hest.ethz.ch/the-group/team/robert-riener.html'>Prof. Robert Riener</a>.
+          </p>
+        </div>
+
+        <div class="section">
+          <h2>News</h2>
+          <ul class="news-list">
+            <li>
+            <strong>Jun 2025</strong>: I was awarded the <a href='https://fulbright-france.org/fr/dotation-arthur-sachs'>Arthur Sachs Fulbright Scholarship</a>.
+            </li>
+            <li>
+            <strong>Apr 2025</strong>: I was awarded the <a href='https://worldwide.harvard.edu/jean-gaillard-memorial-fellowship-fund-france'> Jean Gaillard Memorial Fellowship</a>.
+            </li>
+            <li>
+            <strong>Jan 2025</strong>: I was accepted to Harvard University's <a href='https://gsas.harvard.edu/program/engineering-and-applied-sciences'>Engineering and Applied Sciences PhD program</a> (3% acceptance rate)!
+            </li>
+            <li>
+            <strong>Jan 2025</strong>: My MSc thesis
+              <a href="https://2025.ieee-icra.org/"
+                >A Comparative Study of Pulley and Bowden Transmissions in a Novel Cable-Driven Exosuit, the Stillsuit</a>
+              has been accepted at <i>ICRA 2025</i>.
+            </li>
+            <li>
+            <strong>Oct 2024</strong>: I graduated from Imperial College London in Mechanical Engineering with a Year Abroad with First-Class Honours!
+            </li>
+            <li>
+            <strong>Sep 2023</strong>: I started my Master's Year Abroad at ETH Zürich.
+            </li>
+            <li>
+            <strong>Jun 2023</strong>: I started my summer internship at Ottobock as a researcher.
+            </li>
+            <li>
+            <strong>Jun 2022</strong>: I started my summer internship at Amazon as a business analyst.
+            </li>
+            <li>
+            <strong>Oct 2020</strong>: I started my Bachelor's with integrated Master's degree in Mechanical Engineering at Imperial College London.
+            </li>
+          </ul>
+        </div>
+
+        <section aria-labelledby="publications-heading">
+          <h2 id="publications-heading">Peer-reviewed Publications</h2>
+
+          <div class="publication-item">
+            <a href="https://2025.ieee-icra.org/">
+              <div class="publication-image">
+                <img
+                  src="assets/paper_figures/stillsuit.png"
+                  alt="The Stillsuit assisting a user for walking."
+                />
+              </div>
+              <div class="publication-content">
+                <h3 class="publication-title">A Comparative Study of Pulley and Bowden Transmissions in a Novel Cable-Driven Exosuit, the Stillsuit</h3>
+                <p class="publication-authors">
+                  <strong>Matthias Jammot</strong>, Adrian Esser, Peter Wolf, Robert Riener, Chiara Basla
+                </p>
+                <p class="publication-venue">IEEE International Conference on Robotics and Automation (ICRA), 2025.</p>
+              </div>
+            </a>
+          </div>
+
         </section>
-
-		<!-- Wrapper -->
-		<div id="wrapper">
-
-			<!-- Main -->
-			<div id="main">
-
-				<!-- About -->
-				<section id="about" class="">
-					<div class="image main" data-position="center">
-						<img src="images/Kyoto.jpg" alt="">
-					</div>
-					<div class="container">
-						<header class="major">
-							<h3>About Me</h3>
-						</header>
-						<p>
-							Hi !
-							<br><br>	
-
-							<!-- I am a PhD student at Harvard University working on AI & Robotics for Health under
-							the supervision of <a href='https://wyss.harvard.edu/team/associate-faculty/conor-walsh/'>Prof. Conor Walsh</a>. -->
-							<!-- Specifically, my research focuses on advancing exoskeletons from controlled lab settings to real-world
-							 environments through through sensing and machine learning techniques. -->
-							<!-- I am the recipient of the XX and XX scholarships, which alongside Harvard's funding, support me in my PhD. -->
-							<!-- <br><br> -->
-							Prior to starting my PhD, I worked on multimodal sensing (egocentric vision + physiological sensors) for health monitoring
-							and human-computer interaction with <a href='https://www.christianholz.net/'>Prof. Christian Holz</a> of the 
-							<a href='https://siplab.org/'>Sensing, Interaction & Perception Lab</a> at ETH Zürich.
-							<br><br>
-							I completed a Master's degree (MEng) at Imperial College London in Mechanical Engineering with a Year Abroad. In this 4-year course (BEng+MEng=3+1),
-							I pursued my final year at ETH Zürich in the Robotics, Systems and Control MSc. 
-							My Master's thesis on the design and control of a novel lower-limb soft exoskeleton at the <a href='https://sms.hest.ethz.ch/'>Sensory-Motor Systems Lab</a> 
-							was supervised by <a href='https://sms.hest.ethz.ch/the-group/team/robert-riener.html'>Prof. Robert Riener</a>. 
-							<br><br>
-							My areas of interest encompass enhancing human lives through wearable sensors, robotics, and artificial intelligence. 
-							<br><br>
-							If anything on this page resonates with you, feel free to reach out!
-						</p>
-					</div>
-				</section>
-
-<!-- 
-				Timeline Section
-				<section id="timeline" class="">
-					<div class="container">
-						<h3>My journey so far!</h3>
-						<ul class="timeline">
-						<div class="container">
-							<div class="experience">
-								<div class="item">
-									<img src="images/eth_siplab_logo.jpg" alt="Company Logo" class="item-dot">
-									<div class="content">
-										<h5 class="company-name">Research Assistant</h5>
-										<div class="description">Sensing, Interaction & Perception Lab, Zürich</div>
-										<div class="job-info">
-											<div class="title">Nov 2024 - May 2025</div>
-										</div>
-									</div>
-								</div>
-								<div class="item">
-									<img src="images/SMS_logo.png" alt="Company Logo" class="item-dot">
-									<div class="content">
-										<h5 class="company-name">Research Assistant</h5>
-										<div class="description">Sensory-Motor Systems Lab, Zürich</div>
-										<div class="job-info">
-											<div class="title">Feb - Sep 2024</div>
-										</div>
-									</div>
-								</div>
-								<div class="item">
-									<img src="images/eth_zurich_logo.jpg" alt="Company Logo" class="item-dot">
-									<div class="content">
-										<h5 class="company-name">Master's Exchange in Robotics, Systems & Control</h5>
-										<div class="description">ETH Zürich, Zürich</div>
-										<div class="job-info">
-											<div class="title">2023 - 2024</div>
-										</div>
-									</div>
-								</div>
-								<div class="item">
-									<img src="images/ottobock_logo.png" alt="Company Logo" class="item-dot">
-									<div class="content">
-										<h5 class="company-name">Research Intern</h5>
-										<div class="description">Ottobock, Duderstadt</div>
-										<div class="job-info">
-											<div class="title">Jun - Sep 2023</div>
-										</div>
-									</div>
-								</div>
-								<div class="item">
-									<img src="images/imperial_college_london_prosthetics_society_logo.jpg" alt="Company Logo" class="item-dot">
-									<div class="content">
-										<h5 class="company-name">Founder & President</h5>
-										<div class="description">ICL Prosthetics Society, London</div>
-										<div class="job-info">
-											<div class="title">2022 - 2023</div>
-										</div>
-									</div>
-								</div>
-								<div class="item">
-									<img src="images/amazon_logo.jpg" alt="Company Logo" class="item-dot">
-									<div class="content">
-										<h5 class="company-name">Business Analytics Intern</h5>
-										<div class="description">Amazon, Munich | Berlin</div>
-										<div class="job-info">
-											<div class="title">Jun - Sep 2022</div>
-										</div>
-									</div>
-								</div>
-								<div class="item">
-									<img src="images/windglaz_logo.jpg" alt="Company Logo" class="item-dot">
-									<div class="content">
-										<h5 class="company-name">Software Engineering Intern</h5>
-										<div class="description">Windglaz, Lorient</div>
-										<div class="job-info">
-											<div class="title">Aug - Sep 2021</div>
-										</div>
-									</div>
-								</div>
-								<div class="item">
-									<img src="images/compinfainsa_logo.jpg" alt="Company Logo" class="item-dot">
-									<div class="content">
-										<h5 class="company-name">Factory Worker</h5>
-										<div class="description">Compin-Fainsa, Barcelona</div>
-										<div class="job-info">
-											<div class="title">Jun - Jul 2021</div>
-										</div>
-									</div>
-								</div>
-								<div class="item">
-									<img src="images/imperial_college_london_logo.jpg" alt="Company Logo" class="item-dot">
-									<div class="content">
-										<h5 class="company-name">MEng in Mechanical Engineering with Year Abroad</h5>
-										<div class="description">Imperial College London, London</div>
-										<div class="job-info">
-											<div class="title">2020 - 2024</div>
-										</div>
-									</div>
-								</div>
-								
-							</div>
-						</div>
-						</ul>
-					</div>
-				</section> -->
-
-
-
-			
-
-
-				<!-- Projects -->
-				<section id="projects" class="">
-					<div class="container">
-						<h3>Projects</h3>
-						
-
-						<ul class="projects">
-							<li class="project">
-								<div class="date">02/24 - 09/24</div>
-								<div class="project_title">
-									<a href="#exo" class="scrolly">A Comparative Study of Pulley and Bowden Transmissions in a Novel Cable-Driven Exosuit, the Stillsuit</a>
-								</div>
-							</li>
-							<li class="project">
-								<div class="date">09/23 - 01/24</div>
-								<div class="project_title">
-									<a href="#rwr" class="scrolly"> Design and Control of an Ambidextrous Musculoskeletal Robotic Hand via RL and Teleoperation</a>
-								</div>
-							</li>
-							<li class="project">
-								<div class="date">11/23 - 12/23</div>
-								<div class="project_title">
-									<a href="#mti" class="scrolly">A Wearable IMU Device to model Patient Gait for Multiple Sclerosis</a>
-								</div>
-							</li>
-							<li class="project">
-								<div class="date">06/23 - 09/23</div>
-								<div class="project_title">
-									<a href="#ottobock" class="scrolly">Ottobock Research Internship developing Medical Wearable Physiological Sensors</a>
-								</div>
-							</li>
-							<li class="project">
-								<div class="date">10/22 - 06/23</div>
-								<div class="project_title">
-									<a href="#dmt" class="scrolly">A Machine Vision Collision Avoidance Control Demonstrator</a>
-								</div>
-							</li>
-							<li class="project">
-								<div class="date">10/22 - 12/22</div>
-								<div class="project_title">
-									<a href="#ecm" class="scrolly">Autonomous Robot to Navigate an Unseen Maze</a>
-								</div>
-							</li>
-							<li class="project">
-								<div class="date">10/22 - 15/23</div>
-								<div class="project_title">
-									<a href="#cyb" class="scrolly">A Transfemoral Myoelectric Leg Prosthesis</a>
-								</div>
-							</li>
-							<li class="project">
-								<div class="date">10/22 - 12/22</div>
-								<div class="project_title">
-									<a href="#bio-aqua" class="scrolly">A review on the Locomotion Mechanisms of Bio-inspired Aquatic Robots</a>
-								</div>
-							</li>
-							<li class="project">
-								<div class="date">10/21 - 05/22</div>
-								<div class="project_title">
-									<a href="#gravity" class="scrolly">A Gravity Powered Light</a>
-								</div>
-							</li>
-							<li class="project">
-								<div class="date">10/21 - 12/21</div>
-								<div class="project_title">
-									<a href="#tps" class="scrolly">Technical Presentation on Bionic Prostheses</a>
-								</div>
-							</li>
-							<li class="project">
-								<div class="date">04/20 - 08/20</div>
-								<div class="project_title">
-									<a href="#zephaero" class="scrolly">ZEPHAERO, a Start-up to improve the Aerodynamics of Freight Trains</a>
-								</div>
-							</li>
-
-							<br><br>
-						</ul>
-						
-						
-						
-						
-						<div class="features">
-
-
-							<article id="exo" class = "">
-								<div class="image">
-									<img src="images/stillsuit.png" alt="bla">
-									<p class="image_description"> The Stillsuit assisting a user for walking.
-									</p>
-								</div>
-								<div class="inner">
-									<h4 style="margin-top: 1em"> A Comparative Study of Pulley and Bowden Transmissions in a Novel Cable-Driven Exosuit, the Stillsuit 
-									</h4>
-									<p style="margin-bottom: 1em">
-										Under the supervision of Prof. Robert Riener for my Master's thesis, I built the Stillsuit, a 
-										novel lower-limb
-										soft exoskeleton with a pulley-based transmission, and coded in Python its associated hierarchical 
-										control. 
-										The pulley transmission outperformed the commonly-used Bowden cable efficiency by an additional 18.77% (steel cable) and 40.60% (Dyneema cable).
-										The Stillsuit sets a new benchmark with 87.56% transmission efficiency, generating similar biological torques to those in literature while using smaller motors and a lighter actuation unit (1.92 kg).
-										<br><br>
-										Paper accepted to <a href="https://2025.ieee-icra.org/">ICRA 2025</a>.
-										[<a href="https://github.com/MattJmt/Stillsuit">GitHub</a>]
-										[<a href=>Paper</a>]
-									</p>
-								</div>
-							</article>
-
-							<article id="rwr" class = "">
-								<div class="image">
-									<img src="images/RWR.png" alt="bla">
-									<p class="image_description"> The ambidextrous robotic hand rotating a fidget spinner from the FRANKA arm.
-									</p>
-								</div>
-								<div class="inner">
-									<h4 style="margin-top: 1em"> Design and Control of an Ambidextrous Musculoskeletal Robotic Hand
-										via Reinforcement Learning and Teleoperation
-									</h4>
-									<p style="margin-bottom: 1em"> 
-										My team and I built a novel cable-driven robotic hand, featuring
-										a four degree-of-freedom thumb to enhance dexterity and manipulation capabilities. The
-										hand’s mechanical structure consisted of rolling contact and pin joints,
-										high-friction silicone skin and a 3D-printed concave palm. We trained a policy to rotate a sphere in IsaacGym via reinforcement learning 
-										which successfully worked in  
-										real-life, while also using teleoperation to handle and grasp objects.
-										<br><br>
-
-										[<a href="https://github.com/MattJmt/Real-World-Robotics">GitHub</a>]
-										[<a href="https://www.youtube.com/watch?v=-YM1Ik7tEGE&ab_channel=MatthiasJammot">Video</a>]
-										[<a href="https://drive.google.com/file/d/1a7U7UM4eqGRVcj7Ipdge4wdG5KIlGYwX/view?usp=drive_link">Report</a>]
-									</p>
-								</div>
-							</article>
-
-							<article id="mti" class = "">
-								<div class="image">
-									<img src="images/MTI_kinematics.jpg" alt="bla">
-									<p class="image_description"> 3D model of the user's gait.
-									</p>
-								</div>
-								<div class="inner">
-									<h4 style="margin-top: 1em">A Wearable IMU Device to model Patient Gait for Multiple Sclerosis
-									</h4>
-									<p style="margin-bottom: 1em">
-										
-										In the context of monitoring gait patterns for Multiple Sclerosis (MS) patients to determine their level of 
-										fatigue and the progression of the disease, 
-										I developed a wearable device that extracts step count and step period (cadence) from its user, 
-										and applies forward kinematics to the 
-										filtered IMU acceleration signals to generate a 3D model of the user.
-										<br><br>
-										[<a href="https://github.com/MattJmt/MTI-Gait-Kinematics">GitHub</a>]
-										[<a href="https://www.youtube.com/watch?v=4-0CRPNkLcA&ab_channel=MatthiasJammot">Video</a>]
-										[<a href="https://drive.google.com/file/d/1IFO0bBQqyP13gvSMx9bRe2QUgNCtMoaC/view?usp=drive_link">Report</a>]
-									</p>
-								</div>
-							</article>
-
-							<article id="ottobock" class = "">
-								<div class="image">
-									<img src="images/ottobock_patent.png" alt="bla">
-									<p class="image_description"> Medical sensor to determine a mechanical property via mechanical vibration.
-										 
-									</p>
-								</div>
-								<div class="inner">
-									<h4 style="margin-top: 1em"> Ottobock Research Internship developing Medical Wearable Biomechanical Sensors
-									</h4>
-									<p style="margin-bottom: 1em">
-										 
-										I developed three wearable sensors (one based on the <a href="https://worldwide.espacenet.com/patent/search/family/074188436/publication/DE102019121254A1?q=pn%3DDE102019121254A1">DE102019121254A1 patent</a>) 
-										which were successful at measuring 
-										human mechanical properties. One of the methods was: 
-										a) the human body part is excited to produce a mechanical vibration,
-										b) the vibration is detected by a detection device, 
-										c) the detected vibration is evaluated by at least one electronic data processing device.
-										<br>
-										I coded motor control in C, interfaced sensors and electronic components, modelled hardware in CAD for 3D printing, and analysed signals in Python (FFT).
-										<br><br>
-										I cannot provide further details due to confidentiality.
-
-
-									</p>
-								</div>
-							</article>
-
-							<article id="dmt" class = "">
-								<div class="image">
-									<img src="images/DMT.jpg" alt="bla">
-									<p class="image_description"> The device was presented at the Great Exhibition Road Festival.
-									</p>
-								</div>
-								<div class="inner">
-									<h4 style="margin-top: 1em">A Machine Vision Collision Avoidance Control Demonstrator
-									</h4>
-									<p style="margin-bottom: 1em">
-										With the goal to educate 11-14 year-olds on the benefits of control systems
-										for repetitive and time-critical tasks, this 
-										arcade-like device is increasingly automated in its task to avoid incoming obstacles.   
-										Its 3 modes are:
-										<br> - Fully manual continuous joystick control
-										<br> - Assisted discretised joystick control
-										<br> - Automated Machine Vision control
-										<br>
-										Awarded highest grade in my cohort (81.8%) and showcased at the 2023 Great Exhibition Road Festival in London.
-										
-										<br><br>
-										[<a href="https://github.com/MattJmt/Machine-Vision-Collision-Avoidance-Control-Demonstrator">GitHub</a>]
-										[<a href="https://www.youtube.com/shorts/KIAvfbvvsxQ">Video</a>]
-										[<a href="https://drive.google.com/file/d/1cmYyzZ0Ji7FEwdWkNo2I0PLu5EPIHiAf/view?usp=drive_link">Report</a>]
-										[<a href="https://drive.google.com/file/d/1YpXI7GX5x9jZyLis_vF43iDUd8IQDLLL/view?usp=drive_link">Poster</a>]
-									</p>
-								</div>
-							</article>
-
-							<article id="ecm" class = "">
-								<div class="image">
-									<img src="images/ecm.png" alt="bla">
-									<p class="image_description"> Buggy car navigating three different unseen mazes by detecting flashcards
-									</p>
-								</div>
-								<div class="inner">
-									<h4 style="margin-top: 1em"> Autonomous Robot to Navigate an Unseen Maze.
-									</h4>
-									<p style="margin-bottom: 1em">
-										As part of my "Embedded C for Microcontrollers" class, the task was to code a small buggy robot car
-										to navigate three increasingly complex unseen mazes by detecting coloured flashcards. Once 
-										reaching the final white card, the buggy had to retrace its steps to its starting position.
-										My buggy successfully completed all three mazes, being the fastest
-										to do so in my class.  
-										<br><br>
-										[<a href="https://github.com/MattJmt/Autonomous-Maze-Navigating-Robot">GitHub</a>]
-										[<a href="https://www.youtube.com/shorts/ZVt_KgNvorw">Video Maze 1</a>]
-										[<a href="https://www.youtube.com/shorts/gXaqp8xVOqs">Video Maze 2</a>]
-										[<a href="https://www.youtube.com/watch?v=QHPx16F_wd8&ab_channel=MatthiasJammot">Video Maze 3</a>]
-									</p>
-								</div>
-							</article>
-
-							<article id="cyb" class = "">
-								<div class="image">
-									<img src="images/prostheticssoc.png" alt="bla">
-									<p class="image_description"> Cam-piston mechanism, torque calculations, Ossur cheetah knee.
-									</p>
-								</div>
-								<div class="inner">
-									<h4 style="margin-top: 1em">A Transfemoral Myoelectric Leg Prosthesis
-									</h4>
-									<p style="margin-bottom: 1em">
-										With the objective to take part in the quadrennial Cybathlon competition, 
-										I led a team of 15 students at the ICL Prosthetics Society to build a hybrid
-										passive - active prosthesis, acting freely in stance phase, and becoming 
-										motor-actuated when climbing stairs. Working with our pilot user, 
-										we devised a cam-piston mechanism to actuate Ossur's passive four-bar Cheetah knee, 
-										with IMUs to detect the change from passive to active mode.
-										
-										The team continued this project after my departure to ETH Zürich.
-
-									</p>
-								</div>
-							</article>
-
-							<article id="bio-aqua" class = "">
-								<div class="image">
-									<img src="images/lrp.jpg" alt="bla">
-									<p class="image_description"> Literature review on the different bio-inspired underwater locomotion mechanisms.
-									</p>
-								</div>
-								<div class="inner">
-									<h4 style="margin-top: 1em"> A review on the Locomotion Mechanisms of Bio-inspired Aquatic Robots
-									</h4>
-									<p style="margin-bottom: 1em">
-										This literature review addresses the various existing bio-inspired locomotion mechanisms present in aquatic robots and analyses 
-										the thrust generation model of the presented propulsion methods.  
-										
-										Bio-inspired locomotion is more manoeuvrable, 
-										efficient, and less noisy than its propeller counter-part. With the technological improvements in soft materials, 
-										control and motor efficiency, bio-inspired robots have a bright future.
-										<br><br>
-										[<a href="https://drive.google.com/file/d/17MEQyy1MrvO9yGr1r5L3R3piJ-8fPIGy/view?usp=drive_link">Report</a>]
-									</p>
-								</div>
-							</article>
-
-							<article id="gravity" class = "">
-								<div class="image">
-									<img src="images/gravitylight.png" alt="bla">
-									<p class="image_description"> Render and assembly of the gravity light.
-									</p>
-								</div>
-								<div class="inner">
-									<h4 style="margin-top: 1em"> A Gravity Powered Light
-									</h4>
-									<p style="margin-bottom: 1em">
-										Design and assembly of a Gravity Powered Light, intended to replace kerosene lights in developing countries. 
-										A suspended weight, as it falls, rotates a transmission to power a generator, feeding enery to the light bulb. Our lamp was able to shine
-										for 7min47s with a 10kg falling weight. 
-										<br><br>
-										[<a href="https://drive.google.com/file/d/18GlPC4IkHhReNrqnnjLilaGCxMNbLEfa/view?usp=drive_link">Report</a>]
-									</p>
-								</div>
-							</article>
-
-							<article id="tps" class = "">
-								<div class="image">
-									<img src="images/tps.png" alt="bla">
-									
-								</div>
-								<div class="inner">
-									<h4 style="margin-top: 1em">Technical Presentation on Bionic Prostheses.
-									</h4>
-									<p style="margin-bottom: 1em">
-										I delivered a 10-minute technical presentation on the differences between bionic(active) and passive prostheses. 
-										I discussed the gait cycle, dynamics, transmission and mechatronics involved in bionic prostheses. 
-										<br><br>
-										This work was awarded the highest grade in my cohort (92%) and the Neil Watson Memorial Prize. 
-										<br><br>
-										[<a href="https://drive.google.com/file/d/1J4bkgsCoUQhktZD0qo57z79eitYreyeZ/view?usp=drive_link">Slides</a>]
-									</p>
-								</div>
-							</article>
-
-							<article id="zephaero" class = "">
-								<div class="image">
-									<img src="images/zephaero.png" alt="bla">
-									<p class="image_description"> CAD model of the modular mechatronic device to reduce aerodynamic drag in the inter-carriage gap.
-									</p>
-								</div>
-								<div class="inner">
-									<h4 style="margin-top: 1em"> ZEPHAERO, a Start-up to improve the Aerodynamics of Freight Trains
-									</h4>
-									<p style="margin-bottom: 1em">
-										When COVID-19 hit in March 2020, a friend and I sought to create a startup, Zephaero (“Wind” + “Aero”), 
-										to develop a novel mechatronic system capable of reducing the drag effect generated by inter-carriage gaps in freight trains. 
-										On top of using CAD and CFD softwares, this project involved investigating legal and IP setup, interviewing key market players, and establishing a business plan. 
-										<br><br>
-										[<a href="https://www.youtube.com/watch?v=kHwDfT4NWzM&ab_channel=MatthiasJammot">Video</a>]
-										[<a href="https://drive.google.com/file/d/1_KThCEJ0nRt25xWsSTfbEnm1gtnHYa9Z/view?usp=drive_link">Report</a>]
-									</p>
-								</div>
-							</article>
-						</div>
-					</div>
-				</section>
-
-				<!-- Hobbies -->
-				<section id="hobbies">
-					<div class="container">
-						<h3>Hobbies</h3>
-						<p>
-							I have been very fortunate to live abroad growing up, taking on new activities in the different places I have lived in. 
-							If this has allowed me to discover new cultures and learn multiple languages, it has certainly shaped my understanding of the world.
-							I love sports, and as 
-							more leisurely activities, enjoy reading, playing chess, and movies.
-						</p>
-						<div class="hobby_img">
-							<div class="row">
-								<div class="column">
-									<img src="images/hike.JPG" alt="Hike">
-								</div>
-								<div class="column">
-									<img src="images/climbing.JPG" alt="Climbing">
-								</div>
-							<!-- </div> -->
-							<!-- <div class="row"> -->
-								<div class="column">
-									<img src="images/ski.JPG" alt="Ski">
-								</div>
-								<div class="column">
-									<img src="images/windsurf.png" alt="Windsurf">
-								</div>
-							<!-- </div> -->
-						</div>
-					</div>
-				</section>
-
-            <!-- Footer -->
-				<section id="footer">
-					<div class="container">
-						<ul class="cities">
-							<li>Barcelona</li>
-							<li>Berlin</li>
-							<li>Boston</li>
-							<li>Brussels</li>
-							<li>Hong Kong</li>
-							<li>London</li>
-							<li>Paris</li>
-							<li>Zürich</li>
-
-						</ul>
-						<ul class="copyright">
-							<li>&copy; 2025 Matthias Jammot. All rights reserved.</li>
-						</ul>
-					</div>
-				</section>
-
-			</div>
-
-			<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-
-
-	</div><div id="titleBar"><a href="#header" class="toggle"></a><span class="title">Matthias Jammot</span></div></body>
+      </div>
+    </main>
+    <footer role="contentinfo">
+      <p>&copy; 2025 Matthias Jammot. All rights reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -11,7 +11,7 @@
     --color-text-hover: #666;
     --color-background: #fff;
     --spacing-unit: 10px;
-    --max-width: 650px;
+    --max-width: 800px;
     --border-radius: 10px;
     --font-size-base: 16px;
     --font-size-subtitle: 21px;
@@ -25,7 +25,10 @@
     --spacing-item: 30px;       /* New spacing for items */
     --headline-margin: .5em;   /* New spacing for headlines */
     --paragraph-margin: .5em;    /* New spacing for paragraphs */
-    --font-family-base: "DejaVu Serif", Georgia, Garamond, Times, "Times New Roman", serif;
+    /* --font-family-base: 'Lora', serif; */
+    /* --font-family-base: 'Montserrat', sans-serif; */
+    --font-family-base: 'Raleway', sans-serif;
+    /* --font-family-base: 'Roboto', sans-serif;  */
     --font-family-mono: "SF Mono", "Courier New", Courier, monospace;
 }
 
@@ -197,19 +200,19 @@ header {
 }
 
 .abstract-toggle {
-  display: inline-block;                 /* Makes <a> behave like <button> */
   margin-top: 10px;
   margin-bottom: 5px;
   padding: 4px 8px;
   font-size: var(--font-size-smaller);
+  font-weight: 600; /* add this */
+  font-family: inherit; /* ensure it matches buttons */
   cursor: pointer;
   border: 1px solid #000000;
   background: rgb(255, 255, 255);
   color: var(--color-text);
   transition: background 0.2s;
   border-radius: 6px;  
-  text-decoration: none;                /* Removes underline from <a> */
-
+  text-decoration: none;                /* Removes underline from <a> */        
 }
 
 .abstract-toggle:hover {

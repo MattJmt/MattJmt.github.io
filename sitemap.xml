@@ -9,8 +9,8 @@
     <priority>1.0</priority>
     <image:image>
       <image:loc>https://matthiasjammot.com/assets/avatar.png</image:loc>
-      <image:title>Matthias Jammot | Harvard University | PhD Student in AI & Robotics for Health</image:title>
-      <image:caption>Matthias Jammot | Harvard University | PhD Student in AI & Robotics for Health</image:caption>
+      <image:title>Matthias Jammot | Harvard University | PhD Student in AI+Robotics for Health</image:title>
+      <image:caption>Matthias Jammot | Harvard University | PhD Student in AI+Robotics for Health</image:caption>
       <image:geo_location>Cambridge, MA</image:geo_location>
     </image:image>
   </url>

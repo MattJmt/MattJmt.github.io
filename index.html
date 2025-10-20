@@ -202,6 +202,34 @@
 
           <div class="publication-item">
             <div class="publication-image">
+                <div class="publication-tag">NeurIPS</div>
+                <a href="https://siplab.org/projects/egoEMOTION">
+                <img
+                  src="assets/paper_figures/egoemotion.webp"
+                  alt="egoEMOTION predicts affect from egocentric vision and physiological signals."
+                />
+              </a>
+              </div>
+            <div class="publication-content">
+              <h3 class="publication-title"> <strong>egoEMOTION: Egocentric Vision and Physiological Signals for Emotion and Personality Recognition in Real-World Tasks</strong></h3>
+              <p class="publication-authors">
+                <strong>Matthias Jammot*</strong>, Bjoern Braun*, Paul Streli, Rafael Wampfler, and Christian Holz.
+              </p>
+              <p class="publication-venue">Advances in Neural Information Processing Systems (NeurIPS), 2025. (*equal contribution)</p>
+              <button class="abstract-toggle" onclick="toggleAbstract(this)">Abstract</button>
+              <div class="abstract-content">
+              Understanding affect is central to anticipating human behavior, yet current egocentric vision benchmarks largely ignore the person’s emotional states that shape their decisions and actions. Existing tasks in egocentric perception focus on physical activities, hand-object interactions, and attention modeling—assuming neutral affect and uniform personality. This limits the ability of vision systems to capture key internal drivers of behavior. In this paper, we present egoEMOTION, the first dataset that couples egocentric visual and physiological signals with dense self-reports of emotion and personality across controlled and real-world scenarios. Our dataset includes over 50 hours of recordings from 43 participants, captured using Meta’s Project Aria glasses. Each session provides synchronized eye-tracking video, head-mounted photoplethysmography, inertial motion data, and physiological baselines for reference. Participants completed emotion-elicitation tasks and naturalistic activities while self-reporting their affective state using the Circumplex Model and Mikels’ Wheel as well as their personality via the Big Five model. We define three benchmark tasks: (1) continuous affect classification (valence, arousal, dominance); (2) discrete emotion classification; and (3) trait-level personality inference. We show that a classical learning-based method, as a simple baseline in real-world affect prediction, produces better estimates from signals captured on egocentric vision systems than processing physiological signals. Our dataset establishes emotion and personality as core dimensions in egocentric perception and opens new directions in affect-driven modeling of behavior, intent, and interaction.
+
+              </div>
+              <a class="abstract-toggle" href="https://neurips.cc/virtual/2025/poster/121710" target="_blank">PDF</a>
+              <a class="abstract-toggle" href="https://polybox.ethz.ch/index.php/s/LSKXPye8rGJPHMj" target="_blank">Dataset</a>
+              <a class="abstract-toggle" href="https://github.com/eth-siplab/egoEMOTION" target="_blank">Code</a>
+            </div>  
+          </div>
+
+          <div class="publication-item">
+            <div class="publication-image">
+                <div class="publication-tag">ICRA</div>
                 <a href="https://2025.ieee-icra.org/">
                 <img
                   src="assets/paper_figures/stillsuit.png"
@@ -215,7 +243,7 @@
                 <strong>Matthias Jammot</strong>, Adrian Esser, Peter Wolf, Robert Riener, Chiara Basla
               </p>
               <p class="publication-venue">IEEE International Conference on Robotics and Automation (ICRA), 2025.</p>
-              <button class="abstract-toggle" onclick="toggleAbstract(this)">ABSTRACT</button>
+              <button class="abstract-toggle" onclick="toggleAbstract(this)">Abstract</button>
               <div class="abstract-content">
                 Cable-driven exosuits assist users in ambulatory
                 activities by transmitting assistive torques from motors to the
@@ -256,12 +284,11 @@
     </footer>
   </body>
 </html>
-
 <script>
   function toggleAbstract(button) {
     const content = button.nextElementSibling;
     const isVisible = content.style.display === "block";
     content.style.display = isVisible ? "none" : "block";
-    button.textContent = isVisible ? "ABSTRACT" : "HIDE ABSTRACT";
+    button.textContent = isVisible ? "Abstract" : "Hide Abstract";
   }
 </script>

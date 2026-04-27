@@ -423,7 +423,7 @@ section[aria-labelledby="publications-heading"] {
 
     .profile-col {
         margin: 0 0 24px 0;
-        width: 150px;
+        width: 100%;
     }
 
     .profile-image {
@@ -441,7 +441,6 @@ section[aria-labelledby="publications-heading"] {
     .publication-item .publication-tag {
         grid-column: 1;
         grid-row: 1;
-        width: fit-content;
     }
 
     .publication-item .publication-image {

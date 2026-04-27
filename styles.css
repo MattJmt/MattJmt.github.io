@@ -380,13 +380,28 @@ section[aria-labelledby="publications-heading"] {
 
 /* Media Queries */
 @media (max-width: 768px) {
+    body {
+        margin: 24px auto;
+    }
+
     header {
         flex-direction: column-reverse;
         align-items: center;
         text-align: center;
     }
 
+    .name-row {
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 6px;
+        text-align: center;
+    }
+
     h1 {
+        text-align: center;
+    }
+
+    .tagline {
         text-align: center;
     }
 
@@ -403,29 +418,43 @@ section[aria-labelledby="publications-heading"] {
         justify-content: center;
         margin-top: 12px;
         gap: 8px;
+        flex-wrap: wrap;
     }
 
     .profile-col {
-        margin: 0 0 20px 0;
-        width: 160px;
+        margin: 0 0 24px 0;
+        width: 150px;
     }
 
     .profile-image {
-        width: 160px;
-        height: 160px;
+        width: 150px;
+        height: 150px;
     }
-}
 
-@media (max-width: 650px) {
+    /* Publications: single column */
     .publication-item {
-        flex-direction: column;
-        gap: 12px;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        row-gap: 10px;
     }
 
-    .publication-image {
-        flex: 0 0 auto;
+    .publication-item .publication-tag {
+        grid-column: 1;
+        grid-row: 1;
+        width: fit-content;
+    }
+
+    .publication-item .publication-image {
+        grid-column: 1;
+        grid-row: 2;
         width: 60%;
         margin: 0 auto;
+        text-align: center;
+    }
+
+    .publication-item .publication-content {
+        grid-column: 1;
+        grid-row: 3;
     }
 }
 

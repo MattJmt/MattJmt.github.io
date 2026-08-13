@@ -7,8 +7,8 @@
 
 /* Custom Properties */
 :root {
-    --color-text: #333;
-    --color-link: #1772d0;
+    --color-text: #444;
+    --color-link: #008fa0;
     --color-link-hover: #f09228;
     --color-news-accent: #006666;
     --color-news-date: #1a6b1a;
@@ -122,17 +122,15 @@ h2 {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 6px;
-    flex-wrap: wrap;
-    margin-top: 10px;
+    gap: 8px;
+    flex-wrap: nowrap;
+    margin-top: 34px;
 }
 
 .social-icons a {
     display: inline-flex;
     align-items: center;
-    gap: 5px;
     color: var(--color-link);
-    font-size: var(--font-size-base);
     transition: color 0.15s ease;
 }
 
@@ -141,7 +139,7 @@ h2 {
 }
 
 .social-icons a i {
-    font-size: 14px;
+    font-size: 20px;
 }
 
 .social-sep {
@@ -177,7 +175,7 @@ h2 {
 }
 
 .header-bio p {
-    font-size: var(--font-size-base);
+    font-size: var(--font-size-small);
     line-height: 1.5;
     margin-bottom: 8px;
     text-align: justify;

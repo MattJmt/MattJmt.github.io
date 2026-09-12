@@ -8,9 +8,9 @@
 /* Custom Properties */
 :root {
     --color-text: #444;
-    --color-link: #0062ba;
+    --color-link: #1a72cc;
     --color-link-hover: #f09228;
-    --color-news-accent: #a00020;
+    --color-news-accent: #d93050;
     --color-news-date: #1a6b1a;
     --color-background: #fff;
     --spacing-unit: 10px;
@@ -165,7 +165,7 @@ h2 {
 
 .tagline {
     font-size: 17px;
-    color: #888;
+    color: var(--color-news-accent);
     margin: 0;
 }
 
@@ -199,7 +199,7 @@ h2 {
 }
 
 .news-scroll::-webkit-scrollbar-thumb {
-    background: #a00020;
+    background: #d93050;
     border-radius: 4px;
 
 }
@@ -285,7 +285,7 @@ section[aria-labelledby="publications-heading"] {
 
 .publication-tag {
     display: block;
-    background: #a00020;
+    background: #d93050;
     color: #fff;
     font-weight: 700;
     font-size: var(--font-size-smaller);

@@ -155,6 +155,10 @@
           <h2>News</h2>
           <div class="news-scroll">
             <div class="news-item">
+              <span class="news-date">Nov 2026</span>
+              <span class="news-text">📄 Our paper <a href='https://arxiv.org/abs/2611.19153'>ImpedanceMimic</a> is out, accepted at two <strong>NeurIPS 2026</strong> workshops!</span>
+            </div>
+            <div class="news-item">
               <span class="news-date">Oct 2026</span>
               <span class="news-text">🔍 Named a <strong>Top Reviewer</strong> for <a href='https://neurips.cc/Conferences/2026'><strong>NeurIPS 2026</strong></a>.</span>
             </div>
@@ -231,6 +235,34 @@
 
         <section aria-labelledby="publications-heading">
           <h2 id="publications-heading">Publications</h2>
+
+          <div class="publication-item">
+            <div class="publication-tag">NeurIPS-W</div>
+            <div class="publication-image">
+                <a href="https://impedancemimic.github.io/ImpedanceMimic/">
+                <img
+                  src="assets/paper_figures/impedancemimic.webp"
+                  alt="A simulated skeleton walking while ImpedanceMimic traces its learned joint stiffness against damping."
+                />
+              </a>
+              </div>
+            <div class="publication-content">
+              <h3 class="publication-title"><strong>ImpedanceMimic: Learned Impedance as Action Space for Force-Accurate Motion Imitation</strong></h3>
+              <p class="publication-authors">
+                <u>Matthias Jammot</u>, Pembe Gizem Özdil.
+              </p>
+              <p class="publication-venue">Sim2Sci and PhysWorld AI Workshops, Advances in Neural Information Processing Systems (NeurIPS), 2026.</p>
+              <div class="pub-links">
+                <button class="abstract-toggle" onclick="toggleAbstract(this)">Abstract</button>
+                <a class="abstract-toggle" href="https://arxiv.org/pdf/2611.19153" target="_blank">PDF</a>
+                <a class="abstract-toggle" href="https://impedancemimic.github.io/ImpedanceMimic/" target="_blank">Project Page</a>
+                <a class="abstract-toggle" href="https://github.com/ImpedanceMimic/ImpedanceMimic" target="_blank">Code</a>
+              </div>
+              <div class="abstract-content">
+                Recovering the forces behind a motion is ill-posed: different controllers can reproduce the same movement while generating different contact forces. Physics-based motion imitation resolves this ambiguity through simulation, but relies on fixed-gain proportional–derivative (PD) control. We show that fixed gains impose a trade-off between motion and force tracking, as contact and swing place conflicting demands on joint stiffness and damping. We introduce ImpedanceMimic, a reinforcement-learning policy that modulates per-joint stiffness, damping, and position setpoints from motion and force measurements, but requires only motion at inference. Across 129 participants and six activities, ImpedanceMimic outperforms matched fixed-gain PD under every integration scheme, direct-torque, muscle-actuated and existing imitation controllers in kinematic and force fidelity, approaching a dedicated motion-to-force regressor. By expressing gains as scaled inertia priors, a single policy controls subject-specific biomechanical models without explicit anthropometric input and transfers zero-shot to unseen humans and a simulated humanoid robot. The learned impedance forms a low-dimensional representation of motor state, shared across bodies, that generalizes to withheld activities: stiffness scales with load, and damping anticipates unloading.
+              </div>
+            </div>
+          </div>
 
           <div class="publication-item">
             <div class="publication-tag">NeurIPS</div>
